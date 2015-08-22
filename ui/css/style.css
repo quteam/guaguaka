@@ -1,0 +1,72 @@
+/* Base CSS | haovei@qq.com */
+* { padding: 0; margin: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+ul { list-style: none; }
+em, i { font-style: normal; }
+.clearfix:after { clear: both; display: table; content: "" }
+.undis { display: none }
+/* */
+/*html, body { height: 100%; }*/
+body { font: 14px/1.5 "Microsoft Yahei"; color: #FFF; background: #47146D url(../img/top.jpg) no-repeat 50% 0; background-size: 100%; padding-top: 53%; box-sizing: border-box;
+    -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+a { text-decoration: none; color: #5F5F5F; outline: none; }
+/**/
+.mg10 { margin: 10px 0; }
+.mgb10 { margin-bottom: 10px !important; }
+.mgb20 { margin-bottom: 20px !important; }
+.font22 { font-size: 22px; }
+.color-red { color: #E00062; }
+.color-gray { color: #787878; }
+.color-blue { color: #2A9DFC; }
+.color-black { color: #000; }
+.color-orange { color: #FF5A1E; }
+.fl { float: left; }
+.fr { float: right; }
+/**/
+.icon { display: inline-block; width: 16px; height: 16px; vertical-align: -3px; margin-right: 5px; }
+/**/
+.ipt { font-size: 14px; background: #E6E6E6; border: none; line-height: 20px; width: 100%; box-sizing: border-box; padding: 10px 15px; border-radius: 20px; }
+.btn { display: inline-block; border: none; border-bottom: 1px solid #D90044; background: #FF004B; background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF009F), to(#FF004B)); font-size: 16px; color: #FFF; width: 140px; height: 40px; line-height: 40px; border-radius: 20px; outline: none; }
+.btn-2 { background: #F50087; width: 100%; }
+/**/
+.page-wrap { max-width: 500px; margin: 0 auto; }
+/**/
+.dialog-mask { position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 9; }
+.dialog-box { position: fixed; margin: -165px 0 0 -135px; top: 40%; left: 50%; box-sizing: border-box; width: 270px; background: #FFF; border-radius: 10px; font-size: 16px; color: #3C3C3C; text-align: center; z-index: 10; }
+.dialog-box .content { padding: 190px 15px 10px 15px; height: 130px; background: url(../img/winning.jpg) 50% 10px no-repeat; background-size: 253px; }
+/**/
+.scratcher-wrap { margin: 10px; background: url(../img/tips-bg.jpg) no-repeat 50% 50%; background-size: 100%; border-radius: 8px; }
+.scratcher-wrap canvas { background: transparent no-repeat 50% 50%; background-size: 150px; width: 100%; display: block; }
+.scratcher-wrap .prize-1 { background-image: url(../img/prize-1.png); }
+.scratcher-wrap .prize-2 { background-image: url(../img/prize-2.png); }
+.scratcher-wrap .prize-3 { background-image: url(../img/prize-3.png); }
+.scratcher-wrap .prize-4 { background-image: url(../img/prize-4.png); }
+.scratcher-wrap .prize-no { background-image: url(../img/prize-no.png); }
+.gua-wrap { margin: 10px; background: #66348B; border-radius: 7px; text-align: center; position: relative; padding-top: 38.6%; }
+.gua-wrap .wrap { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: -webkit-box; -webkit-box-orient: horizontal; -webkit-box-pack: center; -webkit-box-align: center; /*display: box;*/ box-orient: horizontal; box-pack: center; box-align: center; }
+.gua-wrap .tips { font-size: 18px; margin-bottom: 5%; }
+.gua-wrap .tips-2 { font-size: 14px; margin-bottom: 2%; }
+.gua-wrap .tips-3, .gua-wrap .tips-4 { background: url(../img/txt-bg.png) no-repeat; background-size: 100%; font-size: 16px; width: 262px; height: 45px; line-height: 42px; color: #FF0073; }
+.gua-wrap .tips-4 { color: #1E1E1E; }
+.gua-wrap-2 { background: url(../img/tips-bg.jpg) no-repeat 50% 50%; background-size: 100%; padding-top: 38%; }
+/**/
+.main-wrap { margin: 10px 10px 30px 10px; background: #66348B; border-radius: 5px 5px 0 0; position: relative; }
+.main-wrap:after { content: ""; background: url(../img/border.png) 50% 100% repeat-x; background-size: 12px; height: 6px; position: absolute; left: 0; right: 0; bottom: -6px; }
+.main-wrap .dt, .main-wrap .dd { margin: 0 10px; }
+.main-wrap .dt { font-size: 16px; border-top: 1px solid #9471AE; }
+.main-wrap .dt em { margin-top: -1px; background: #FF0073; display: inline-block; border-radius: 0 0 20px 20px; width: 100px; height: 30px; line-height: 30px; text-align: center; }
+.main-wrap .dt:first-child { border-top: none; }
+.main-wrap .dt:first-child em { margin-top: 0; }
+.main-wrap .dd { padding: 8px 2px; }
+/**/
+.list-1 { font-size: 16px; }
+.list-1 li { margin: 5px 0; }
+.list-1 img { width: 44px; height: 44px; border-radius: 4px; vertical-align: middle; }
+.list-1 em { display: inline-block; margin: 0 10px; font-weight: 700; }
+.list-2 { }
+.list-2 li { margin: 5px 0; font-size: 0; }
+.list-2 li span { display: inline-block; font-size: 14px; }
+.list-2 li .col-1 { width: 46%; }
+.list-2 li .col-2 { width: 27%; font-style: italic; }
+.list-2 li .col-3 { width: 27%; text-align: right; }
+/**/
+#list-2 { position: relative; overflow: hidden; height: 110px; }

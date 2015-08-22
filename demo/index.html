@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>咪咕爱唱</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1,maximum-scale=1">
+    <link href="../ui/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="page-wrap">
+    <div class="scratcher-wrap">
+        <canvas id="scratcher" data-src="../ui/img/scratcher.png"></canvas>
+    </div>
+    <div class="gua-wrap">
+        <div class="wrap">
+            <div class="tips-box">
+                <div class="tips">恭喜你，中了二等奖</div>
+                <div>
+                    <button type="button" class="btn openDialog">填写领奖信息</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gua-wrap">
+        <div class="wrap">
+            <div class="tips-box">
+                <div class="tips-2">为了保证活动真实有效，请登录后<br>
+                    开始参与刮奖活动
+                </div>
+                <div>
+                    <button type="button" class="btn openDialog">填写领奖信息</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gua-wrap gua-wrap-2">
+        <div class="wrap">
+            <div class="tips-box">
+                <div class="tips-3 mgb10">恭喜你，中了二等奖</div>
+                <div>手机号：13880359625</div>
+            </div>
+        </div>
+    </div>
+    <div class="gua-wrap gua-wrap-2">
+        <div class="wrap">
+            <div class="tips-box">
+                <div class="tips-4">谢谢参与</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main -->
+    <div class="main-wrap">
+        <div class="dt"><em>奖项设置</em></div>
+        <div class="dd">
+            <ul class="list-1">
+                <li><img src="../ui/img/gift-1.jpg"/><em>一等奖:</em>iPhone 6</li>
+                <li><img src="../ui/img/gift-2.jpg"/><em>二等奖:</em>小米充电宝</li>
+                <li><img src="../ui/img/gift-3.jpg"/><em>三等奖:</em>咪咕公仔</li>
+                <li><img src="../ui/img/gift-4.jpg"/><em>幸运奖:</em>50元话费</li>
+            </ul>
+        </div>
+        <div class="dt"><em>获奖名单</em></div>
+        <div class="dd">
+            <div id="list-2">
+                <ul class="list-2">
+                    <li><span class="col-1">Jenny.won</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">小小美丽</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">明宇小妹</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">明宇小妹</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">大狗熊</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">大狗熊</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                    <li><span class="col-1">大狗熊</span><span class="col-2">iPhone6</span><span class="col-3">06月29日</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dt"><em>活动规则</em></div>
+        <div class="dd">
+            参与方式：<br>
+            1、<br>
+            2、<br>
+            <br>
+            活动时间：<br>
+            2015年6月29日 至 2015年7月30日
+        </div>
+    </div>
+</div>
+
+<!-- 分享弹窗 -->
+<div id="dialog" class="undis">
+    <div class="dialog-mask"></div>
+    <div class="dialog-box">
+        <div class="content">
+            <form>
+                <div class="text">你刮中了二等奖，赶快去领取吧</div>
+                <div class="mg10"><input type="text" class="ipt" placeholder="请填写真实手机号，以便为你发放奖品"/></div>
+                <div>
+                    <button type="button" class="btn btn-2">立即领奖</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    var getPrizeUrl = "../data/prize.data";
+</script>
+<script src="../ui/jquery.js"></script>
+<script src="../ui/main.js"></script>
+</body>
+</html>
